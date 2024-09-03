@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+nav {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.plant {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.plant-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.plant h1 {
+  font-weight: 480;
+  line-height: 20px;
+  color: var(--red);
+  font-size: 40px;
+}
+
+.plant h2 {
+  font-weight: 500;
+  line-height: 50px;
+  color: var(--green);
+  font-size: 80px;
+}
+
+.plant p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 500px;
+}
+
+.plant p1 {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 500px;
+}
+
+.responsive-image {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+
+/* Content   */
+.explore-boxes {
+  display: flex;
+  gap: 24px;
+}
+.explore-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+}
+.explore-box h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.explore-box p {
+  font-size: 16px;
+}
+.explore-box a {
+  text-decoration: none;
+  color: var(--red);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.explore-box a:hover {
+  color: #00b712; 
+}
+.content-section h3 {
+  text-align: center;
+  font-size: 35px; 
+  color: #fa0e3e; 
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px rgb(14, 209, 239); 
+}
+.content-section p{
+  text-align: center;
+  color:black;
+  font-size: 17px;
+}
+
+
+/* Details */
+.details-container {
+  padding: 20px;
+}
+.details-content {
+  display: flex;
+  align-items: center;
+}
+.plant-image {
+  width: 50%;
+  padding-right: 20px;
+}
+.plant-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.plant-details {
+  width: 50%;
+}
+.plant-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.plant-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* Fruits  */
+.fruits-topic {
+  font-size: 35px;
+  text-align: center;
+  color: #640fdc;
+}
+.fruits-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.fruit-box {
+  width: 92%;
+  padding: 20px;
+  background-color: #decccc;
+  text-align: center;
+  border: 2px solid #3a2121; /* Add border property */
+}
+.fruit-box img {
+  width: 250px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.fruit-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.fruit-box p {
+  font-size: 16px;
+  color: #000000;
+}
+
+
+/*  Flowers  */
+.flowers-topic {
+  font-size: 35px;
+  text-align: center;
+  color: #dc0f68;
+}
+.flower-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.flower-box {
+  width: 92%;
+  padding: 20px;
+  background-color: #f8abab;
+  text-align: center;
+  border: 2px solid #48b818; /* Add border property */
+}
+.flower-box img {
+  width: 250px; /* Adjust size as needed */
+  height: 320px; /* Adjust size as needed */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.flower-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.flower-box p {
+  font-size: 16px;
+  color: #000000;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #97ebee;
+  padding: 10px 0;
+}
+.footcer-content {
+  text-align:right;
+}
+.footer p {
+  margin: 10px;
+}
